@@ -27,7 +27,7 @@ cd CS252-OS-Assignment/4.23
 -   Compile the program
 
 ```sh
-gcc stats.c -lpthread
+gcc FindPrime4.23.c -lpthread
 ```
 
 -   Run the compiled program and enter the data
