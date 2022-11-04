@@ -17,7 +17,7 @@ the number entered by the user.
 -   Download/Clone the Github repo.
 
 ```sh
-git clone https://github.com/sujay000/CS252.git
+git clone https://github.com/Varun-SHV/CS252-OS-Assignment.git
 ```
 
 ```sh
