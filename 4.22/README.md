@@ -39,7 +39,7 @@ cd CS252-OS-Assignment/4.22
 -   Compile the program
 
 ```sh
-gcc stats.c -lpthread
+gcc Multithrd.c -lpthread
 ```
 
 -   Run the compiled program and enter the data
@@ -50,7 +50,7 @@ gcc stats.c -lpthread
 
 ## Demo
 
-#### The result: maximum, minimum, average are displayed on the command line.<br>
+#### The result: maximum, minimum, average are displayed.
 
 ![DEMO](DEM.png)
 
