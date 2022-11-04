@@ -22,7 +22,7 @@ deviation.)
 
 ## Source Code
 
-[stats.c](https://github.com/sujay000/CS252/blob/main/Question_4.22/stats.c)
+[Multithrd.c](https://github.com/Varun-SHV/CS252-OS-Assignment/blob/main/4.22/Multithrd4.22.c)
 
 ### Instructions
 
