@@ -52,7 +52,7 @@ gcc stats.c -lpthread
 
 #### The result: maximum, minimum, average are displayed on the command line.<br>
 
-![demo_result](images/output.png)
+![DEMO](DEM.png)
 
 The following thread fuctions and declarations were used:
 
