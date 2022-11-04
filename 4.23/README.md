@@ -40,7 +40,7 @@ gcc stats.c -lpthread
 
 #### The result: The prime numbers less than the given number is printed.
 
-![demo_result](DEMO.png)
+![DEMO](DEMO.png)
 
 The following thread fuctions and declarations were used:
 
