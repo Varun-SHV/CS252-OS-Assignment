@@ -67,9 +67,9 @@ pthread_t t3;
 	//printf("\n done and my value is %d",n);
 	n=pthread_create(&t2,NULL,&th1,NULL);
         pthread_join(t2,NULL);
-	//printf("\n done and my value is %d",n);
 	n=pthread_create(&t3,NULL,&th2,NULL);
-        pthread_join(t3,NULL);
-	//printf("\n done and my value is %d",n);
+        
+	 pthread_join(t2,NULL);
+         pthread_join(t3,NULL);
 
 }
