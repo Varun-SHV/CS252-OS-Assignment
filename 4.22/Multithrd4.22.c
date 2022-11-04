@@ -18,6 +18,7 @@ void *th()
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
+		printf("Enter the NUM: ");
 		scanf("%d",&arr[i]);
 	}
 	for(i=0;i<n;i++)
