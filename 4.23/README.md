@@ -40,7 +40,7 @@ gcc FindPrime4.23.c -lpthread
 
 #### The result: The prime numbers less than the given number is printed.
 
-![DEMO](DEMO.png)
+![DEMO](https://github.com/Varun-SHV/CS252-OS-Assignment/blob/main/4.23/DEMO.PNG)
 
 The following thread fuctions and declarations were used:
 
