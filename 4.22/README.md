@@ -33,7 +33,7 @@ git clone https://github.com/sujay000/CS252.git
 ```
 
 ```sh
-cd CS252/Question_4.22
+cd CS252-OS-Assignment/4.22
 ```
 
 -   Compile the program
