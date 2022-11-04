@@ -52,7 +52,7 @@ gcc Multithrd.c -lpthread
 
 #### The result: maximum, minimum, average are displayed.
 
-![DEMO](DEM.png)
+![DEMO](https://github.com/Varun-SHV/CS252-OS-Assignment/blob/main/4.22/DEM.PNG)
 
 The following thread fuctions and declarations were used:
 
