@@ -62,3 +62,6 @@ The following thread fuctions and declarations were used:
 
     - Used to wait for the termination of a thread
     - example : `pthread_join(t1,NULL);`
+    ## Credits
+
+-   [(https://stackoverflow.com/questions/26090901/find-prime-numbers-in-a-separate-thread)]
