@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include<stdio.h>
 #include<pthread.h>
 
@@ -14,7 +6,13 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int prime_arr[MAX];
 int N;
-
+void *print(){
+    int i;
+     for(i=0;i<N;i++){
+        if(prime_arr[i]==1){
+            printf("%d ",i+1);
+    
+}}}
 void *printprime()
 {
   int  j,flag;
@@ -39,14 +37,13 @@ void *printprime()
 void main(){
     int i,c;
     pthread_t thd;
+    pthread_t thd2;
     printf("Enter the limit: ");
     scanf("%d",&N);
     c=pthread_create(&thd,NULL,&printprime,NULL);
     pthread_join(thd,NULL);
-    for(i=0;i<N;i++){
-        if(prime_arr[i]==1){
-            printf("%d ",i+1);
-        }
-    }
+    c=pthread_create(&thd2,NULL,&print,NULL);
+    pthread_join(thd,NULL);
+    
     
 }
